@@ -11,11 +11,9 @@ const CreateAccount: FC = () => {
 
   return (
     <div className="flex justify-center bg-gray-100 p-4 min-h-screen">
-    
       <div className="relative w-full max-w-sm bg-white rounded-xl shadow-lg border-2 border-gray-300 overflow-hidden mt-8">
-    
         <div className="flex flex-col justify-start items-center w-full px-6 py-8">
-          <h1 className="text-3xl font-semibold text-center text-purple-700 mb-6 tracking-tight">
+          <h1 className="text-3xl font-semibold text-center text-[#6C25FF] mb-6 tracking-tight">
             Create your PopX account
           </h1>
 
@@ -30,17 +28,17 @@ const CreateAccount: FC = () => {
               <p className="text-sm font-semibold mb-2">Are you an Agency? *</p>
               <div className="flex gap-6">
                 <label className="flex items-center gap-2">
-                  <input type="radio" name="agency" className="accent-purple-600" /> Yes
+                  <input type="radio" name="agency" className="accent-[#6C25FF]" /> Yes
                 </label>
                 <label className="flex items-center gap-2">
-                  <input type="radio" name="agency" className="accent-purple-600" /> No
+                  <input type="radio" name="agency" className="accent-[#6C25FF]" /> No
                 </label>
               </div>
             </div>
 
             <button
               onClick={handleCreateAccount}
-              className="bg-purple-600 text-white py-3 px-8 rounded-md w-full text-lg font-medium transition-all hover:bg-purple-700 focus:outline-none mt-6"
+              className="bg-[#6C25FF] text-white py-3 px-8 rounded-md w-full text-lg font-medium transition-all hover:bg-[#5718D9] focus:outline-none mt-6"
             >
               Create Account
             </button>
