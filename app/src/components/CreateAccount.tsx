@@ -11,9 +11,9 @@ const CreateAccount: FC = () => {
 
   return (
     <div className="flex justify-center bg-gray-100 p-4 min-h-screen">
-      {/* Phone border container */}
+    
       <div className="relative w-full max-w-sm bg-white rounded-xl shadow-lg border-2 border-gray-300 overflow-hidden mt-8">
-        {/* Phone screen content */}
+    
         <div className="flex flex-col justify-start items-center w-full px-6 py-8">
           <h1 className="text-3xl font-semibold text-center text-purple-700 mb-6 tracking-tight">
             Create your PopX account
